@@ -184,7 +184,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT199037OPTA" #WOOL
+		name = "EVT199937OPTA" #WOOL
 		add_country_modifier = {
 		name = rgo_changed
 		duration = 4562

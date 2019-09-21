@@ -1,0 +1,58 @@
+leader = {
+	name = "Imam Shamil"
+	picture = cir_gen_shamil
+	date = 1836.1.1
+	type = land
+	personality = defiant
+	background = natural_born_leader
+	prestige = 0.1
+}
+
+leader = {
+	name = "Kazbech Tuguzhoko"
+	date = 1820.1.1
+	type = land
+	personality = daring
+	background = rising_star
+	prestige = 0.2
+}
+
+army = {
+	name = "Army of Western Circassia"
+	location = 1095
+	regiment = {
+		name= "1. Adyghe"
+		type = cavalry
+		home = 1051
+	}
+
+	regiment = {
+		name= "1.Kabarda"
+		type = infantry
+		home = 1056
+	}
+
+	regiment = {
+		name= "2. Kabarda"
+		type = artillery
+		home = 1056
+	}
+
+}
+
+army = {
+	name = "Army of Eastern Circassia"
+	location = 1055
+	regiment = {
+		name= "1. Chechen"
+		type = infantry
+		home = 1055
+	}
+
+	regiment = {
+		name= "3. Kabarda"
+		type = cavalry
+		home = 1054
+	}
+
+}

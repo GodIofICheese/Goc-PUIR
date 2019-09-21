@@ -1,0 +1,428 @@
+#Nien Rebellion
+
+army = {
+	name = "1st Nien Army"
+	location = 1478
+
+	leader = {
+		name = "RenZhu"
+		date = 1861.1.1
+		type = land
+		personality = daring
+		background = school_of_offense
+		prestige = 0.3
+	}
+
+	regiment = {
+		name= "1. Nien"
+		type = cavalry
+		home = 1478
+	}
+
+	regiment = {
+		name= "2. Nien"
+		type = cavalry
+		home = 1478
+	}
+
+	regiment = {
+		name= "3. Nien"
+		type = cavalry
+		home = 1478
+	}
+	
+	regiment = {
+		name= "4. Nien"
+		type = cavalry
+		home = 1478
+	}
+	regiment = {
+		name= "5. Nien"
+		type = cavalry
+		home = 1478
+	}
+	regiment = {
+		name= "6. Nien"
+		type = cavalry
+		home = 1478
+	}
+
+	regiment = {
+		name= "7. Nien"
+		type = cavalry
+		home = 1478
+	}
+
+	regiment = {
+		name= "8. Nien"
+		type = cavalry
+		home = 1478
+	}
+	
+	regiment = {
+		name= "9. Nien"
+		type = cavalry
+		home = 1478
+	}
+	regiment = {
+		name= "10. Nien"
+		type = cavalry
+		home = 1478
+	}
+}
+
+army = {
+	name = "2nd Nien Army"
+	location = 1536
+	
+	leader = {
+		name = "Mio Payling"
+		date = 1861.1.1
+		type = land
+		personality = persistent
+		background = cavalry_school
+		prestige = 0.1
+	}
+	
+	regiment = {
+		name= "11. Nien"
+		type = cavalry
+		home = 1536
+	}
+
+	regiment = {
+		name= "12. Nien"
+		type = cavalry
+		home = 1536
+	}
+
+	regiment = {
+		name= "13. Nien"
+		type = cavalry
+		home = 1536
+	}
+	
+	regiment = {
+		name= "14. Nien"
+		type = cavalry
+		home = 1536
+	}
+	regiment = {
+		name= "15. Nien"
+		type = cavalry
+		home = 1536
+	}
+
+	regiment = {
+		name= "16. Nien"
+		type = cavalry
+		home = 1536
+	}
+
+	regiment = {
+		name= "17. Nien"
+		type = cavalry
+		home = 1536
+	}
+
+	regiment = {
+		name= "18. Nien"
+		type = cavalry
+		home = 1536
+	}
+	
+	regiment = {
+		name= "19. Nien"
+		type = cavalry
+		home = 1536
+	}
+	regiment = {
+		name= "20. Nien"
+		type = cavalry
+		home = 1536
+	}
+}
+
+army = {
+	name = "3rd Nien Army"
+	location = 1567
+
+	leader = {
+		name = "Fan Ruzeng"
+		date = 1861.1.1
+		type = land
+		personality = persistent
+		background = cavalry_school
+		prestige = 0.1
+	}
+	
+	regiment = {
+		name= "21. Nien"
+		type = cavalry
+		home = 1567
+	}
+
+	regiment = {
+		name= "22. Nien"
+		type = cavalry
+		home = 1567
+	}
+
+	regiment = {
+		name= "23. Nien"
+		type = cavalry
+		home = 1567
+	}
+	
+	regiment = {
+		name= "24. Nien"
+		type = cavalry
+		home = 1567
+	}
+	regiment = {
+		name= "25. Nien"
+		type = cavalry
+		home = 1567
+	}
+	regiment = {
+		name= "26. Nien"
+		type = cavalry
+		home = 1567
+	}
+
+	regiment = {
+		name= "27. Nien"
+		type = cavalry
+		home = 1567
+	}
+
+	regiment = {
+		name= "28. Nien"
+		type = cavalry
+		home = 1567
+	}
+	
+	regiment = {
+		name= "29. Nien"
+		type = cavalry
+		home = 1567
+	}
+	regiment = {
+		name= "30. Nien"
+		type = cavalry
+		home = 1567
+	}
+}
+
+army = {
+	name = "4th Nien Army"
+	location = 1542
+
+	leader = {
+		name = "Niu Hongsheng"
+		date = 1861.1.1
+		type = land
+		personality = persistent
+		background = cavalry_school
+		prestige = 0.1
+	}
+	
+	regiment = {
+		name= "31. Nien"
+		type = cavalry
+		home = 1542
+	}
+
+	regiment = {
+		name= "32. Nien"
+		type = cavalry
+		home = 1542
+	}
+
+	regiment = {
+		name= "33. Nien"
+		type = cavalry
+		home = 1542
+	}
+	
+	regiment = {
+		name= "34. Nien"
+		type = cavalry
+		home = 1542
+	}
+	regiment = {
+		name= "35. Nien"
+		type = cavalry
+		home = 1567
+	}
+	regiment = {
+		name= "36. Nien"
+		type = cavalry
+		home = 1542
+	}
+
+	regiment = {
+		name= "37. Nien"
+		type = cavalry
+		home = 1542
+	}
+
+	regiment = {
+		name= "38. Nien"
+		type = cavalry
+		home = 1542
+	}
+	
+	regiment = {
+		name= "39. Nien"
+		type = cavalry
+		home = 1542
+	}
+	regiment = {
+		name= "40. Nien"
+		type = cavalry
+		home = 1542
+	}
+}
+
+army = {
+	name = "5th Nien Army"
+	location = 1564
+
+	leader = {
+		name = "Zhang Zongyu"
+		date = 1861.1.1
+		type = land
+		personality = persistent
+		background = cavalry_school
+		prestige = 0.1
+	}
+	
+	regiment = {
+		name= "41. Nien"
+		type = cavalry
+		home = 1564
+	}
+
+	regiment = {
+		name= "42. Nien"
+		type = cavalry
+		home = 1564
+	}
+
+	regiment = {
+		name= "43. Nien"
+		type = cavalry
+		home = 1564
+	}
+	
+	regiment = {
+		name= "44. Nien"
+		type = cavalry
+		home = 1564
+	}
+	regiment = {
+		name= "45. Nien"
+		type = cavalry
+		home = 1564
+	}
+	regiment = {
+		name= "46. Nien"
+		type = cavalry
+		home = 1564
+	}
+
+	regiment = {
+		name= "47. Nien"
+		type = cavalry
+		home = 1564
+	}
+
+	regiment = {
+		name= "48. Nien"
+		type = cavalry
+		home = 1564
+	}
+	
+	regiment = {
+		name= "49. Nien"
+		type = cavalry
+		home = 1564
+	}
+	regiment = {
+		name= "50. Nien"
+		type = cavalry
+		home = 1564
+	}
+}
+
+army = {
+	name = "6th Nien Army"
+	location = 1571
+
+	leader = {
+		name = "Li Fang"
+		date = 1861.1.1
+		type = land
+		personality = persistent
+		background = cavalry_school
+		prestige = 0.1
+	}
+	
+	regiment = {
+		name= "51. Nien"
+		type = cavalry
+		home = 1571
+	}
+
+	regiment = {
+		name= "52. Nien"
+		type = cavalry
+		home = 1571
+	}
+
+	regiment = {
+		name= "53. Nien"
+		type = cavalry
+		home = 1571
+	}
+	
+	regiment = {
+		name= "54. Nien"
+		type = cavalry
+		home = 1571
+	}
+	regiment = {
+		name= "35. Nien"
+		type = cavalry
+		home = 1571
+	}
+	regiment = {
+		name= "36. Nien"
+		type = cavalry
+		home = 1571
+	}
+
+	regiment = {
+		name= "37. Nien"
+		type = cavalry
+		home = 1571
+	}
+
+	regiment = {
+		name= "38. Nien"
+		type = cavalry
+		home = 1571
+	}
+	
+	regiment = {
+		name= "39. Nien"
+		type = cavalry
+		home = 1571
+	}
+	regiment = {
+		name= "40. Nien"
+		type = cavalry
+		home = 1571
+	}
+}

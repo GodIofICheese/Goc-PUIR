@@ -1,0 +1,17 @@
+#############################################;;;;;;;;;;;;;;x
+#Additional Modifiers;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+help_ai;Moderate AI Boost to Economy;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+chinese_economic_compensation;Great Leap Forward;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed;RGO Change Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed_title;RGO Change Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+rgo_changed_desc;You have recently taken a decision to change a RGO, you must wait a while before doing so again.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+switched_production;Switched Production;;;;;;;;;;;;;x,,,,
+switched_production_desc;The province has just switched its major production, and locals are still acclimatizing to the change.;;;;;;;;;;;;;x,,,
+player_unciv_mobilization;Player Controlled Uncivilized Nation;;;;;;;;;;;;x,,,,,,,
+developing_bioweapons;Bioweapons in Development;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+developing_bioweapons_desc;After this modifier runs down you will have access to a decision while at war to deploy the Solomon Virus.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+experimental_bioweapon;The Solomon Virus;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+experimental_bioweapon_desc;Once considered legend, now revived and modified to be even more infectious & deadly, this weapon can wipe out entire countries once deployed.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+bioweapon_cooldown;Solomon Virus Under Cooldown;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
+bioweapon_cooldown_desc;You must wait till the modifier disappears before deploying The Solomon Virus again.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;

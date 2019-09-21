@@ -1,0 +1,274 @@
+leader = {
+	name = "Hong Xiuquan"
+	date = 1851.1.1
+	type = land
+	personality = deeply_religious
+	background = priest
+	prestige = 0.5
+}
+
+leader = {
+	name = "Shi Dakai"
+	date = 1851.1.1
+	type = land
+	personality = openminded
+	background = uncommonly_young
+	prestige = 0.3
+}
+
+leader = {
+	name = "Li Xiucheng"
+	date = 1852.1.1
+	type = land
+	personality = soldierly
+	background = engineer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Chen Yucheng"
+	date = 1856.1.1
+	type = land
+	personality = skilled
+	background = rising_star
+	prestige = 0.1
+}
+
+leader = {
+	name = "Lai Wenguang"
+	date = 1856.1.1
+	type = land
+	personality = daring
+	background = cavalry_school
+	prestige = 0.2
+}
+
+leader = {
+	name = "Li Rongfa"
+	date = 1859.1.1
+	type = land
+	personality = active_p
+	background = uncommonly_young
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of Taiping"
+	location = 2221
+	regiment = {
+		name= "1. Taiping 1st Banner"
+		type = infantry
+		home = 1477
+	}
+
+	regiment = {
+		name= "2.Taiping 1st Banner"
+		type = infantry
+		home = 1477
+	}
+
+	regiment = {
+		name= "3.Taiping 1st Banner"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "4.Taiping 1st Banner"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "5.Taiping 1st Banner"
+		type = cavalry
+		home = 1475
+	}
+
+	regiment = {
+		name= "1.Taiping Militia"
+		type = irregular
+		home = 2221
+	}
+
+	regiment = {
+		name= "2.Taiping Militia"
+		type = irregular
+		home = 1544
+	}
+
+	regiment = {
+		name= "3.Taiping Militia"
+		type = irregular
+		home = 1544
+	}
+
+	regiment = {
+		name= "4.Taiping Militia"
+		type = irregular
+		home = 1537
+	}
+	regiment = {
+		name= "5.Taiping Militia"
+		type = irregular
+		home = 1475
+	}
+}
+
+army = {
+	name = "Army of the North King"
+	location = 1470
+	
+	regiment = {
+		name= "1.North King Banner"
+		type = infantry
+		home = 1474
+	}
+
+	regiment = {
+		name= "2.North King Banner"
+		type = infantry
+		home = 1474
+	}
+
+	regiment = {
+		name= "3.North King  Banner"
+		type = infantry
+		home = 1471
+	}
+	regiment = {
+		name= "4.North King  Banner"
+		type = infantry
+		home = 1471
+	}
+	regiment = {
+		name= "5.North King  Banner"
+		type = cavalry
+		home = 1473
+	}
+	regiment = {
+		name= "6.Taiping Militia"
+		type = irregular
+		home = 1537
+	}
+
+	regiment = {
+		name= "7.Taiping Militia"
+		type = irregular
+		home = 1539
+	}
+}
+
+army = {
+	name = "Army of the West King"
+	location = 1474
+
+	regiment = {
+		name= "1.West King Banner"
+		type = infantry
+		home = 1470
+	}
+
+	regiment = {
+		name= "2.West King Banner"
+		type = infantry
+		home = 1470
+	}
+
+	regiment = {
+		name= "3.West King Banner"
+		type = infantry
+		home = 1470
+	}
+	regiment = {
+		name= "4.West King Banner"
+		type = infantry
+		home = 1470
+	}
+	regiment = {
+		name= "5.West King Banner"
+		type = cavalry
+		home = 1537
+	}
+	regiment = {
+		name= "8.Taiping Militia"
+		type = irregular
+		home = 1470
+	}
+
+	regiment = {
+		name= "9.Taiping Militia"
+		type = irregular
+		home = 1474
+	}
+}
+
+army = {
+	name = "Army of the East King"
+	location = 1537
+
+	regiment = {
+		name= "1.East King Banner"
+		type = infantry
+		home = 1537
+	}
+
+	regiment = {
+		name= "2.East King Banner"
+		type = infantry
+		home = 1537
+	}
+
+	regiment = {
+		name= "3.East King Banner"
+		type = infantry
+		home = 1544
+	}
+	regiment = {
+		name= "4.East King Banner"
+		type = infantry
+		home = 1539
+	}
+	regiment = {
+		name= "5.East King Banner"
+		type = cavalry
+		home = 1539
+	}
+	regiment = {
+		name= "10.Taiping Militia"
+		type = irregular
+		home = 1609
+	}
+}
+
+
+army = {
+	name = "Army of the South King"
+	location = 1537
+
+	regiment = {
+		name= "1.South King Banner"
+		type = infantry
+		home = 1609
+	}
+
+	regiment = {
+		name= "2.South King Banner"
+		type = infantry
+		home = 1609
+	}
+
+	regiment = {
+		name= "3.South King Banner"
+		type = infantry
+		home = 1607
+	}
+	regiment = {
+		name= "4.South King Banner"
+		type = infantry
+		home = 1607
+	}
+	regiment = {
+		name= "5.South King Banner"
+		type = cavalry
+		home = 1610
+	}
+}

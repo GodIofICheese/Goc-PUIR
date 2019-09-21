@@ -1,0 +1,26 @@
+leader = {
+	name = "Great Duke Friedrich Franz"
+	picture = mec_gen_friedrichfranz
+	date = 1842.1.1
+	type = land
+	personality = soldierly
+	background = aristocrat
+	prestige = 0.5
+}
+
+army = {
+	name = "Mecklenburgische Armee"
+	location = 544
+	regiment = {
+		name= "1. Mecklenburgische Infanterie-Brigade"
+		type = infantry
+		home = 544
+	}
+	
+	regiment = {
+		name= "2. Mecklenburgische Infanterie-Brigade"
+		type = infantry
+		home = 545
+	}
+	
+}

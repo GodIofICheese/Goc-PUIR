@@ -1,0 +1,159 @@
+leader = {
+	name = "Prince Karl"
+	picture = bav_gen_prinzkarl
+	date = 1825.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.3
+}
+
+leader = {
+	name = "Leonhard von Hohenhausen"
+	date = 1839.1.1
+	type = land
+	personality = able
+	background = gifted_administrator
+	prestige = 0.3
+}
+
+leader = {
+	name = "Jakob von Hartmann"
+	picture = bav_gen_hartmann
+	date = 1849.1.1
+	type = land
+	personality = skilled
+	background = war_college
+	prestige = 0.2
+}
+
+leader = {
+	name = "Prince Luitpold"
+	picture = bav_gen_prinzluitpold
+	date = 1851.1.1
+	type = land
+	personality = soft
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Ludwig von der Tann"
+	picture = bav_gen_vondertann
+	date = 1861.1.1 #1855
+	type = land
+	personality = efficient
+	background = generals_aide
+	prestige = 0.2
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 600
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 601
+	}
+
+	regiment = {
+		name= "1. Kgl. Bayer. Artilleriebrigade"
+		type = artillery
+		home = 599
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 598
+	}
+
+	regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 602
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = engineer
+		home = 597
+	}
+
+	regiment = {
+		name= "1. Kgl. Bayer. Kürassierbrigade"
+		type = dragoon
+		home = 599
+	}
+
+}
+
+army = {
+	name = "II. Korps"
+	location = 595
+	regiment = {
+		name= "7. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "8. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "9. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 592
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Kürassierbrigade"
+		type = dragoon
+		home = 592
+	}
+
+	regiment = {
+		name= "10. Kgl. Bayer. Infanteriebrigade"
+		type = engineer
+		home = 596
+	}
+	
+	regiment = {
+		name= "2. Kgl. Bayer. Artilleriebrigade"
+		type = artillery
+		home = 598
+	}
+}
+
+army = {
+	name = "III. Korps"
+	location = 571
+	regiment = {
+		name= "11. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 571
+	}
+
+	regiment = {
+		name= "12. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 571
+	}
+
+}
+

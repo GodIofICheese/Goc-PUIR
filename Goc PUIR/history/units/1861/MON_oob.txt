@@ -1,0 +1,49 @@
+#Leaders
+
+leader = {
+	name = "Mirko Petrovic-Njegos"
+	picture = mon_gen_mirko
+	date = 1830.1.1
+	type = land
+	personality = au_fait
+	background = poet
+	prestige = 0.5
+}
+
+leader = {
+	name = "Marko Popovic"
+	picture = mon_gen_popovic
+	date = 1856.1.1
+	type = land
+	personality = vicious
+	background = expert_raider
+	prestige = 0.1
+}
+
+leader = {
+	name = "Nikola Petrovic-Njegos"
+	picture = mon_gen_nikola
+	date = 1860.1.1
+	type = land
+	personality = spirited
+	background = gifted_administrator
+	prestige = 0.5
+}
+
+army = {
+	name = "Montenegrin Army"
+	location = 2583
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 2583
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 2583
+	}
+
+}
+

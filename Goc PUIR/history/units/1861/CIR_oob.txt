@@ -1,0 +1,22 @@
+army = {
+	name = "Army of Circassia"
+	location = 1056
+	regiment = {
+		name= "1. Kabarda"
+		type = infantry
+		home = 1056
+	}
+
+	regiment = {
+		name= "2. Kabarda"
+		type = infantry
+		home = 1056
+	}
+
+	regiment = {
+		name= "1. Adyghe"
+		type = dragoon
+		home = 1051
+	}
+
+}

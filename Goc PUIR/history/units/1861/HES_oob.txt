@@ -1,0 +1,36 @@
+leader = {
+	name = "Prince Karl"
+	picture = hes_gen_prinzkarl
+	date = 1836.1.1
+	type = land
+	personality = indifferent
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Great Duke Ludwig IV"
+	picture = hes_gen_ludwigiv
+	date = 1861.1.1 #1863
+	type = land
+	personality = openminded
+	background = aristocrat
+	prestige = 0.5
+}
+
+army = {
+	name = "Groﬂherzogliche Armee"
+	location = 2560
+	regiment = {
+		name= "1. Groﬂherzogliche Infanterie-Brigade"
+		type = infantry
+		home = 2560
+	}
+	
+	regiment = {
+		name= "2. Groﬂherzogliche Infanterie-Brigade"
+		type = infantry
+		home = 567
+	}
+
+}

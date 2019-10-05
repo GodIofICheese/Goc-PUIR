@@ -1206,7 +1206,6 @@ emigration_chance =
 	modifier = {
 		factor = -2.0
 		state_scope = { is_colonial = yes }
-		}
 	}
 	
 	modifier = {

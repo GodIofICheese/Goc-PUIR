@@ -863,7 +863,7 @@ free_peoples = {
 
 	badboy_factor = 0.66
 	prestige_factor = 1
-	peace_cost_factor = 1.2
+	peace_cost_factor = 2.0
 	penalty_factor = 1
 	
 	construction_speed = 0.5
@@ -879,6 +879,10 @@ free_peoples = {
 	
 	
 	can_use = {
+		AND = {
+		   year = 1836
+		   NOT = { year = 1870 }
+		}
 		NOT = { 
 			OR = {
 				has_country_modifier = neutrality
@@ -1870,9 +1874,12 @@ great_war_penalty_cb = {
 	months = 0
 	crisis = no
 	
-	constructing_cb = no
+	constructing_cb = yes
 	
-	great_war_obligatory = yes
+	can_use = {
+		great_wars_enabled = yes
+        war_with = THIS
+    }
 	
 	badboy_factor = 1.3
 	prestige_factor = 1.8
@@ -2772,6 +2779,189 @@ demand_concession_casus_belli_player_early = {
 			from = jingoism 
 			to = pro_military
 			value = 0.1
+		}
+	}
+}
+
+free_peoples_midgame = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 0.66
+	prestige_factor = 1
+	peace_cost_factor = 1.35
+	penalty_factor = 1
+	
+	construction_speed = 0.5
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 36
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	
+	can_use = {
+		AND = {
+		   year = 1870
+		   NOT = { year = 1900 }
+		}
+		NOT = { 
+			OR = {
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		number_of_states = 2
+		NOT = {
+			tag = FROM
+			this_culture_union = FROM	
+		}
+		from = {
+			OR = {
+				exists = yes
+				NOT = {
+						OR = {
+							tag = GER
+							tag = SCA
+							tag = ITA
+							tag = YUG
+							tag = ROM
+							tag = CZH
+						}
+					}
+				}
+			}
+		
+		any_owned_province = {
+			is_core = FROM
+			NOT =
+			{
+				is_core = THIS
+			}
+		}
+		is_releasable_vassal = FROM
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+		}
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_FREE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+free_peoples_lategame = {
+	sprite_index = 9
+	is_triggered_only = yes
+	months = 12
+
+	badboy_factor = 0.66
+	prestige_factor = 1
+	peace_cost_factor = 0.9
+	penalty_factor = 1
+	
+	construction_speed = 0.5
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 36
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	
+	can_use = {
+		AND = {
+		   year = 1900
+		}
+		NOT = { 
+			OR = {
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		number_of_states = 2
+		NOT = {
+			tag = FROM
+			this_culture_union = FROM	
+		}
+		from = {
+			OR = {
+				exists = yes
+				NOT = {
+						OR = {
+							tag = GER
+							tag = SCA
+							tag = ITA
+							tag = YUG
+							tag = ROM
+							tag = CZH
+						}
+					}
+				}
+			}
+		
+		any_owned_province = {
+			is_core = FROM
+			NOT =
+			{
+				is_core = THIS
+			}
+		}
+		is_releasable_vassal = FROM
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+		}
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_FREE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }

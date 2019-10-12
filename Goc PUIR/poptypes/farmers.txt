@@ -180,7 +180,7 @@ country_migration_target =
 			factor = 0
 			AND = {
 				NOT = { poor_strata_life_needs = 0 }
-				NOT = { poor_strata_everyday_needs = 0 }}
+				NOT = { poor_strata_everyday_needs = 0 }
 			}
 		}
 	

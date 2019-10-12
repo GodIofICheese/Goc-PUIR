@@ -116,47 +116,85 @@ country_migration_target =
 	
 		modifier = {
 			factor = 0.95
-			NOT = { middle_strata_life_needs = 0.90 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.90 }
+				NOT = { middle_strata_everyday_needs = 0.45 }
+				NOT = { middle_strata_luxury_needs = 0.2 }
+			}
 		}
 		modifier = {
 			factor = 0.95
-			NOT = { middle_strata_life_needs = 0.80 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.80 }
+				NOT = { middle_strata_everyday_needs = 0.40 }
+				NOT = { middle_strata_luxury_needs = 0.175 }
+			}
 		}
 		modifier = {
 			factor = 0.95
-			NOT = { middle_strata_life_needs = 0.70 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.70 }
+				NOT = { middle_strata_everyday_needs = 0.35 }
+				NOT = { middle_strata_luxury_needs = 0.15 }
+			}
 		}		
 		modifier = {
 			factor = 0.90
-			NOT = { middle_strata_life_needs = 0.60 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.60 }
+				NOT = { middle_strata_everyday_needs = 0.30 }
+				NOT = { middle_strata_luxury_needs = 0.125 }
+			}
 		}		
 		modifier = {
 			factor = 0.90
-			NOT = { middle_strata_life_needs = 0.50 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.50 }
+				NOT = { middle_strata_everyday_needs = 0.25 }
+				NOT = { middle_strata_luxury_needs = 0.10 }
+			}
 		}
 		modifier = {
 			factor = 0.90
-			NOT = { middle_strata_life_needs = 0.40 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.40 }
+				NOT = { middle_strata_everyday_needs = 0.20 }
+			}
 		}
 		modifier = {
 			factor = 0.8
-			NOT = { middle_strata_life_needs = 0.30 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.30 }
+				NOT = { middle_strata_everyday_needs = 0.15 }
+			}
 		}
 		modifier = {
 			factor = 0.8
-			NOT = { middle_strata_life_needs = 0.20 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.20 }
+				NOT = { middle_strata_everyday_needs = 0.10 }
+			}
 		}
 		modifier = {
 			factor = 0.5
-			NOT = { middle_strata_life_needs = 0.10 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.10 }
+				NOT = { middle_strata_everyday_needs = 0.05 }
+			}
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { middle_strata_life_needs = 0.05 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0.05 }
+				NOT = { middle_strata_everyday_needs = 0.025 }
+			}
 		}
 		modifier = {
 			factor = 0
-			NOT = { middle_strata_life_needs = 0 }
+			AND = {
+				NOT = { middle_strata_life_needs = 0 }
+				NOT = { middle_strata_everyday_needs = 0 }
+			}
 		}
 	
 	modifier = {

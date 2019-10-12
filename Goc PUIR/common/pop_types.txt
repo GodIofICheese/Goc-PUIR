@@ -160,7 +160,6 @@ promotion_chance =
 		modifier = {
 			factor = 0.1
 			life_needs = 0.9
-	
 		}
 		modifier = {
 			factor = 0.1

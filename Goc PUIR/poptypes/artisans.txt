@@ -193,7 +193,7 @@ country_migration_target =
 		}
 	
 	modifier = {
-		f	actor = 1.4
+		factor = 1.4
 		OR = {
 			is_primary_culture = THIS
 			is_accepted_culture = THIS

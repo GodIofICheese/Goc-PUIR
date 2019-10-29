@@ -186,26 +186,6 @@ insane_empire2 = {
 	icon = 9
 }
 
-ai_boost = {
-	trigger = { 
-		ai = yes
-		civilized = yes
-		NOT = { literacy = 0.7 }
-		NOT = {
-		 	is_culture_group = east_asian
-			OR = { 
-				has_pop_culture = beifaren
-				has_pop_culture = nanfaren
-				has_pop_culture = yue 
-			}
-		}
-	}
-	tax_efficiency = 0.05 #5% increase
-	education_efficiency_modifier = 1.0 #100% boost
- 	loan_interest = -0.03 #3% less interest on debts
-	icon = 9
-}
-
 gorkha_kingdom = {
 	trigger = {
 		is_culture_group = central_asian
@@ -214,21 +194,6 @@ gorkha_kingdom = {
 	}
 	global_population_growth = 0.01
 	icon = 17
-}
-
-fairer_taxation = {
-	trigger = {
-		ai = no
-		civilized = yes
-		year = 1890
-		OR = {
-			economic_policy = planned_economy
-			economic_policy = state_capitalism
-			economic_policy = interventionism
-		}	
-	}
-	max_tax = 0.8
-	icon = 9
 }
 
 tariff_efficiency_boost = {
@@ -619,6 +584,8 @@ help_ai = {
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.03
 	supply_consumption = -0.15
+	education_efficiency_modifier = 1.0 #100% boost
+ 	loan_interest = -0.03 #3% less interest on debts
 }
 
 chinese_economic_compensation = {

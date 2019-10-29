@@ -27,3 +27,6 @@ EVT199937OPTH;I'd rather not change anything.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;
 EVTNAME776801;Colonial Tech Inheiritance;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTDESC776801;Uncivilized Puppets gain basic industrial techs to further the out-sourcing of resources.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTOPTA776801;Isn't this just exploitation of our natural resources?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+776901;Forced Unsphereing of China;;;;;;;;;x
+EVTDESC776901;China being in a sphere of influence early-mid game tends to crash the World Economy, due to this China & some of it's substates is unsphereable till 1900.;;;;;;;;;x
+EVTOPTA776901;But I enjoy a broken World Economy...;;;;;;;;;x

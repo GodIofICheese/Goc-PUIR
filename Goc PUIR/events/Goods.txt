@@ -327,8 +327,6 @@ province_event = {
 		or = {
 			province_id = 2500			# Kalgoorlie
 			province_id = 2503			# Wiluna
-			province_id = 2601			# Sandy Desert
-			province_id = 2605			# Gibson's Desert
 		}
 		not = { trade_goods = precious_metal }
 	}

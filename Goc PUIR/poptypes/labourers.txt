@@ -316,11 +316,6 @@ migration_target =
 		}
 	}
 	modifier = {
-		factor = 3
-		trade_goods = precious_metal
-		NOT = { unemployment_by_type = { value = 0.01 type = labourers } }
-	}
-	modifier = {
 		factor = 4
 		this = { religion = jewish }
 		is_core = ISR 
@@ -824,8 +819,7 @@ promote_to =
 				military_spending = 0.99
 			}
 		}
-		group = {
-			modifier = {
+		modifier = {
 				factor = -2
 				soldiers = 0.005
 			}
@@ -869,53 +863,61 @@ promote_to =
 			modifier = {
 				factor = -100
 				soldiers = 0.055
+				revanchism = 0.05
 				NOT = { revanchism = 0.1 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.06
+				revanchism = 0.10
 				NOT = { revanchism = 0.15 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.065
+				revanchism = 0.15
 				NOT = { revanchism = 0.2 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.07
+				revanchism = 0.20
 				NOT = { revanchism = 0.25 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.075
+				revanchism = 0.25
 				NOT = { revanchism = 0.3 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.08
+				revanchism = 0.30
 				NOT = { revanchism = 0.35 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.085
+				revanchism = 0.35
 				NOT = { revanchism = 0.4 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.09
+				revanchism = 0.40
 				NOT = { revanchism = 0.45 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.1
+				revanchism = 0.45
 				NOT = { revanchism = 0.5 }
 			}
 			modifier = {
 				factor = -100
 				soldiers = 0.11
 			}
-		}
 		
 		group = {
             modifier = {

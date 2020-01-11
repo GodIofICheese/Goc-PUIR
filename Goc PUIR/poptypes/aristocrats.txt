@@ -324,13 +324,8 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.9
+		factor = 0.85
 		is_mobilised = yes
-	}
-	
-	modifier = {
-		factor = 1.1	
-		ai = no
 	}
 	
 	modifier = {

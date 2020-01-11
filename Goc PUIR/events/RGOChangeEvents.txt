@@ -172,8 +172,8 @@ country_event = {
 country_event = {
 	id = 199937 #Agriculture Decision Change
 	picture = farming
-	title = "EVTNAME199037"
-	desc = "EVTDESC199037"
+	title = "EVTNAME199937"
+	desc = "EVTDESC199937"
 	
 	is_triggered_only = yes
 	
@@ -247,6 +247,11 @@ country_event = {
 		name = rgo_changed
 		duration = 4562
 		}
+		any_country = {
+                any_owned = { limit = { trade_goods = timber }
+                    add_province_modifier = { name = timber_employment_fix duration = 5 }
+                }
+        }
 		clr_country_flag = rgo_changed_flag
 		random_owned = {
 			limit = {
@@ -294,6 +299,10 @@ country_event = {
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
+			}
+			add_province_modifier = {
+			name = migration_factor_reduced
+			duration = 730
 			}
 		}	
 	}

@@ -70,7 +70,6 @@ mechanical_production = 1
 # Inventions
 #corvettes = yes
 commerce_raiders = yes
-prophylactics = yes
 
 # Starting Consciousness
 consciousness = 3

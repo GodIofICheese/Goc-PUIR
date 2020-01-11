@@ -1,7 +1,7 @@
 	province_event = {
 	id = 99100
-	title = "EVTNAME99025"
-	desc = "EVTDESC99025"
+	title = "EVTNAME999025"
+	desc = "EVTDESC999025"
 
 	trigger = {
 		province_control_days=365 #1 years
@@ -52,8 +52,8 @@
 
 country_event = { #note, this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
 	id = 99101
-	title = "EVTNAME99101"
-	desc = "EVTDESC99101"
+	title = "EVTNAME999101"
+	desc = "EVTDESC999101"
 
 	trigger = {
 		NOT = { exists = ZOM }
@@ -101,8 +101,8 @@ country_event = { #note, this must be a country event, otherwise it might happen
 
 country_event = {
 	id = 99200
-	title = "EVTNAME99200"
-	desc = "EVTDESC99200"
+	title = "EVTNAME999200"
+	desc = "EVTDESC999200"
 	
 	trigger = {
 		OR = {
@@ -134,8 +134,8 @@ country_event = {
 
 country_event = {
 	id = 99201
-	title = "EVTNAME99201"
-	desc = "EVTDESC99201"
+	title = "EVTNAME999201"
+	desc = "EVTDESC999201"
 	
 	trigger = {
 		OR = {

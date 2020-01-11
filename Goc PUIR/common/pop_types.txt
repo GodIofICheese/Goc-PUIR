@@ -542,7 +542,7 @@ migration_chance =
 	}
 	
 	modifier = {
-		factor = 0.05
+		factor = 0.1
 		country = { is_mobilised = yes }
 	}
 		

@@ -94,7 +94,7 @@ large_nation = {
 	tax_efficiency = -0.05 #5% malus
 	max_tariff = -0.05 #5% was 15%
 	mobilisation_economy_impact = 0.1
-	global_immigrant_attract = -0.025
+	global_immigrant_attract = -0.05
 	icon = 9
 }
 
@@ -111,7 +111,7 @@ empire = {
 	max_tariff = -0.10 #10% was 20%
 	factory_owner_cost = -0.10 #10% decrease in cost for buildings
 	mobilisation_economy_impact = 0.2
-	global_immigrant_attract = -0.05
+	global_immigrant_attract = -0.1
 	icon = 9
 }
 
@@ -129,7 +129,7 @@ medium_empire = {
 	research_points_modifier = 0.1 #10% increase
 	factory_owner_cost = -0.10 #10% decrease in cost for buildings
 	mobilisation_economy_impact = 0.4
-	global_immigrant_attract = -0.1
+	global_immigrant_attract = -0.2
 	icon = 9
 }
 
@@ -147,7 +147,7 @@ large_empire = {
 	research_points_modifier = 0.13 #13% increase
 	factory_owner_cost = -0.15 #15% decrease in cost for buildings
 	mobilisation_economy_impact = 0.6
-	global_immigrant_attract = -0.15
+	global_immigrant_attract = -0.3
 	icon = 9
 }
 
@@ -165,7 +165,7 @@ insane_empire = {
 	max_tariff = -0.25 #25% malus
 	factory_owner_cost = -0.15 #15% decrease in cost for buildings
 	mobilisation_economy_impact = 1.0
-	global_immigrant_attract = -0.2
+	global_immigrant_attract = -0.4
 	icon = 9
 }
 
@@ -182,7 +182,7 @@ insane_empire2 = {
 	max_tariff = -0.60 #60% malus
 	factory_owner_cost = -0.20 #20% decrease in cost for buildings
 	mobilisation_economy_impact = 1.0
-	global_immigrant_attract = -0.25
+	global_immigrant_attract = -0.5
 	icon = 9
 }
 
@@ -586,6 +586,51 @@ help_ai = {
 	supply_consumption = -0.15
 	education_efficiency_modifier = 1.0 #100% boost
  	loan_interest = -0.03 #3% less interest on debts
+}
+
+fairer_taxation = {
+	trigger = {
+		ai = yes
+		civilized = yes
+		money = 20000000
+		NOT = { money = 30000000 }
+	}
+	max_tax = 0.40
+	icon = 9
+}
+
+
+fairer_taxation1 = {
+	trigger = {
+		ai = yes
+		civilized = yes
+		money = 30000000
+		NOT = { money = 40000000 }
+	}
+	max_tax = 0.30
+	icon = 9
+}
+
+
+fairer_taxation2 = {
+	trigger = {
+		ai = yes
+		civilized = yes
+		money = 40000000
+		NOT = { money = 50000000 }
+	}
+	max_tax = 0.20
+	icon = 9
+}
+
+fairer_taxation3 = {
+	trigger = {
+		ai = yes
+		civilized = yes
+		money = 50000000
+	}
+	max_tax = 0.10
+	icon = 9
 }
 
 chinese_economic_compensation = {

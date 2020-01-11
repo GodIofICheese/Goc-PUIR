@@ -1100,3 +1100,13 @@ switched_production = {
 rgo_changed = {
 	icon = 12
 }
+
+migration_factor_reduced = {
+    icon = 14
+	immigrant_push = -100
+}
+
+timber_employment_fix = {
+    local_RGO_throughput = -0.95
+    icon = 14
+}

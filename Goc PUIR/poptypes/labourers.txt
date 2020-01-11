@@ -231,15 +231,10 @@ country_migration_target =
 	}
 	
 	modifier = {
-		factor = 0.9
+		factor = 0.85
 		is_mobilised = yes
 	}
-	
-	modifier = {
-		factor = 1.1	
-		ai = no
-	}
-	
+
 	modifier = {
 		factor = 0.9
 		NOT = { has_country_flag = new_world_nation }
@@ -262,7 +257,7 @@ migration_target =
 		total_pops = 150000
 	}	
 	modifier = {
-		factor = -0.1
+		factor = 0.1
 		unemployment = 0.1
 	}
 

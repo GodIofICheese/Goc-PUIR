@@ -321,7 +321,7 @@ mechanized_slaughtering_block = {
 }
 #interchangeable_parts
 precision_work = {
-	limit = { mechanical_production = 1 }
+	limit = { publishing_industry = 1 }
 	chance = {
 		base = 2
 		modifier = {

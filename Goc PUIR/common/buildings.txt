@@ -19,7 +19,8 @@ aeroplane_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 1200
+		machine_parts = 150
 		electric_gear = 600
 		steel = 600
 		cement = 600
@@ -40,7 +41,8 @@ barrel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 1000
+		machine_parts = 150
 		electric_gear = 500
 		steel = 500
 		cement = 500
@@ -62,7 +64,8 @@ automobile_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 800
+		machine_parts = 150
 		electric_gear = 200
 		steel = 400
 		cement = 400
@@ -84,7 +87,8 @@ radio_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		electric_gear = 200
 		steel = 200
 		cement = 200
@@ -106,7 +110,8 @@ telephone_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		electric_gear = 200
 		steel = 200
 		cement = 200
@@ -130,7 +135,8 @@ electric_gear_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 300
+		lumber = 400
+		machine_parts = 225
 		steel = 200
 		cement = 200
 	}
@@ -151,6 +157,7 @@ machine_parts_factory = {
 	max_level = 99
 	goods_cost =
 	{
+		lumber = 1000
 		steel = 500
 		iron = 500
 		cement = 500
@@ -172,7 +179,8 @@ synthetic_oil_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 800
+		lumber = 2000
+		machine_parts = 600
 		steel = 1000
 		cement = 1000
 	}
@@ -193,9 +201,10 @@ fuel_refinery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
-		steel = 200
-		cement = 200
+		lumber = 400
+		machine_parts = 150
+		steel = 1000
+		cement = 1000
 	}
 	time = 365
 	visibility = yes
@@ -216,7 +225,8 @@ steamer_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 400
+		lumber = 400
+		machine_parts = 300
 		steel = 200
 		cement = 200
 	}
@@ -236,7 +246,8 @@ clipper_shipyard = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		cement = 200
 	}
@@ -258,7 +269,8 @@ luxury_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		cement = 200
 	}
@@ -278,7 +290,8 @@ luxury_furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		cement = 200
 	}
@@ -300,7 +313,8 @@ steel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		coal = 200
 	}
@@ -320,7 +334,8 @@ artillery_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		cement = 200
 	}
@@ -339,7 +354,8 @@ small_arms_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 140
+		lumber = 400
+		machine_parts = 105
 		iron = 200
 		cement = 200
 	}
@@ -360,7 +376,8 @@ furniture_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 140
+		lumber = 400
+		machine_parts = 105
 		iron = 200
 		cement = 200
 	}
@@ -379,7 +396,8 @@ paper_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 140
+		lumber = 400
+		machine_parts = 105
 		iron = 200
 		cement = 200
 	}
@@ -398,7 +416,8 @@ regular_clothes_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 140
+		lumber = 400
+		machine_parts = 105
 		iron = 200
 		cement = 200
 	}
@@ -417,7 +436,8 @@ explosives_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 140
+		lumber = 400
+		machine_parts = 105
 		iron = 200
 		cement = 200
 	}
@@ -439,7 +459,8 @@ ammunition_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 100
+		lumber = 400
+		machine_parts = 75
 		iron = 200
 		cement = 200
 	}
@@ -459,7 +480,8 @@ canned_food_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		lumber = 400
+		machine_parts = 60
 		iron = 200
 		cement = 200
 	}
@@ -479,7 +501,8 @@ dye_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		lumber = 400
+		machine_parts = 60
 		iron = 200
 		cement = 200
 	}
@@ -499,7 +522,8 @@ liquor_distillery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		lumber = 400
+		machine_parts = 60
 		iron = 200
 		cement = 200
 	}
@@ -519,7 +543,8 @@ winery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 80
+		lumber = 400
+		machine_parts = 60
 		iron = 200
 		cement = 200
 	}
@@ -541,7 +566,6 @@ lumber_mill = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
 		iron = 200
 		cement = 200
 	}
@@ -560,7 +584,8 @@ fabric_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
+		lumber = 400
+		machine_parts = 15
 		iron = 200
 		cement = 200
 	}
@@ -579,7 +604,7 @@ cement_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 20
+		lumber = 400
 		iron = 200
 		timber = 200
 	}
@@ -598,7 +623,8 @@ glass_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 40
+		lumber = 400
+		machine_parts = 30
 		iron = 200
 		cement = 200
 	}
@@ -618,14 +644,14 @@ fertilizer_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
+		lumber = 400
+		machine_parts = 150
 		iron = 200
 		cement = 200
 	}
 	time = 365
 	visibility = yes
 	onmap = no
-
 	production_type = fertilizer_factory
 	pop_build_factory = yes
 }
@@ -658,7 +684,7 @@ naval_base = {
 		lumber = 600
 		cement = 800
 		steel = 800
-		machine_parts = 60
+		machine_parts = 30
 	}
 	time = 1080
 	naval_capacity = 1
@@ -676,11 +702,13 @@ naval_base = {
        
 railroad = {   
 	type = infrastructure
+	cost = 1500
 	goods_cost =
 	{
-		timber = 100
-		cement = 100
-		steel = 100
+		timber = 200 #was 0
+		lumber = 400 # replaced timber 100
+		cement = 200 #100
+		steel = 150 #100
 	}
 	time = 720
 	visibility = yes

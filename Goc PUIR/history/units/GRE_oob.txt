@@ -28,45 +28,65 @@ leader = {
 
 army = {
 	name = "Stratós Thessalías"
-	location = 836
+	location = 834
 	regiment = {
 		name= "1. Taxiarchia Pezikou"
-		type = infantry
+		type = hussar
 		home = 834
 	}
 
 	regiment = {
 		name= "2. Taxiarchia Pezikou"
-		type = infantry
+		type = guard
 		home = 836
 	}
 
 	regiment = {
 		name= "3. Taxiarchia Pezikou"
-		type = infantry
+		type = guard
 		home = 835
 	}
 
 	regiment = {
 		name= "4. Taxiarchia Pezikou"
-		type = infantry
+		type = guard
 		home = 838
 	}
-}
 
-army = {
-	name = "Stratós Epeírou"
-	location = 837
 	regiment = {
 		name= "5. Taxiarchia Pezikou"
-		type = infantry
+		type = guard
 		home = 837
 	}
 
 	regiment = {
 		name= "6. Taxiarchia Pezikou"
-		type = infantry
+		type = artillery
 		home = 841
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 834
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 839
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 840
+	}
+	
+	regiment = {
+		name= "6. Taxiarchia Pezikou"
+		type = artillery
+		home = 842
 	}
 }
 

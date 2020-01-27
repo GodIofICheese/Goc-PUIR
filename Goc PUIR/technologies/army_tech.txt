@@ -162,7 +162,7 @@ deep_defense_system = {
 	unciv_military = yes
 	engineer = {
 		support = 0.25
-	} 
+	}
 	army_base = {
 		supply_consumption = 0.05
 	} 

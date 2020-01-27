@@ -673,6 +673,10 @@ flintlock_rifle_armament = {
 			attack = 1
 			supply_consumption = 0.10
 		}
+		engineer = {
+			attack = 1
+			supply_consumption = 0.10
+		}
 		dragoon = {
 			attack = 1
 			supply_consumption = 0.10

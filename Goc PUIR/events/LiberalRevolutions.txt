@@ -1322,7 +1322,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 250
+		months = 500
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1402,7 +1402,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 100
+		months = 200
 		modifier = {
 			factor = 0.9
 			NOT = {

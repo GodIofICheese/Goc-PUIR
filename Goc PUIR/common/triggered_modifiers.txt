@@ -8,7 +8,7 @@ desperate_nation  = {
 	trigger = {
 		NOT = { total_pops = 25000 }  #25 thousand POPs/100 thousand population 
 	}
-	global_population_growth = 0.06
+	global_population_growth = 0.05
 	mobilisation_economy_impact = -0.80
 	supply_consumption = -0.80
 	mobilisation_size = 0.2
@@ -21,7 +21,7 @@ microscopic_nation  = {
 		total_pops = 25000 #25 thousand POPs/100 thousand population
 		NOT = { total_pops = 125000 }  #125 thousand POPs/500 thousand population 
 	}
-	global_population_growth = 0.005
+	global_population_growth = 0.004
 	mobilisation_economy_impact = -0.75
 	supply_consumption = -0.75
 	mobilisation_size = 0.1
@@ -34,10 +34,10 @@ tiny_nation  = {
 		total_pops = 125000 #125 thousand POPs/500 thousand population
 		NOT = { total_pops = 1250000 } #1.25 million POPs/5 Million population
 	}
-	global_population_growth = 0.004
+	global_population_growth = 0.003
 	mobilisation_economy_impact = -0.50
 	supply_consumption = -0.50
-	mobilisation_size = 0.03
+	mobilisation_size = 0.04
 	tax_efficiency = 0.25 #25% boost
 	icon = 6
 }

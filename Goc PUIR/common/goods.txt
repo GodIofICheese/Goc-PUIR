@@ -50,7 +50,7 @@ raw_material_goods = {
 		color = { 125 158 43 }
 	}
 	coal = { 
-		cost = 2.3
+		cost = 2.7
 		color = { 11 29 77 }
 	}
 	sulphur = { 
@@ -58,11 +58,11 @@ raw_material_goods = {
 		color = { 181 228 102 }
 	}
 	iron = { 
-		cost = 3.5
+		cost = 4.2
 		color = { 111 111 111 }
 	}
 	timber = { 
-		cost = 0.9
+		cost = 1.1
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
@@ -87,7 +87,7 @@ raw_material_goods = {
 
 industrial_goods = {
 	steel = { 
-		cost = 4.7
+		cost = 6.5
 		color = { 95 128 147 }
 		available_from_start = no
 	}
@@ -96,7 +96,7 @@ industrial_goods = {
 		color = { 185 187 164 }
 	}
 	machine_parts = { 
-		cost = 36.5
+		cost = 46.5
 		color = { 177 198 196 }
 		available_from_start = no
 	}
@@ -140,7 +140,7 @@ industrial_goods = {
 		color = { 186 50 40 }
 	}
 	lumber = { 
-		cost = 1.1
+		cost = 1.6
 		overseas_penalty = yes
 		color = { 180 94 26 }
 	}

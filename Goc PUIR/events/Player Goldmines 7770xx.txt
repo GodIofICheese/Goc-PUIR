@@ -6,6 +6,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		FRA = {	ai = no }
+		tag = FRA
 		464 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -31,6 +32,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		SPA = {	ai = no }
+		tag = SPA
 		478 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -56,6 +58,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		POR = {	ai = no }
+		tag = POR
 		524 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -81,6 +84,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		BEL = {	ai = no }
+		tag = BEL
 		397 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -106,6 +110,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		NET = {	ai = no }
+		tag = NET
 		380 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -131,6 +136,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		ENG = {	ai = no }
+		tag = ENG
 		256 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -156,6 +162,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		SWI = {	ai = no }
+		tag = SWI
 		611 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -181,6 +188,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		SWE = {	ai = no }
+		tag = SWE
 		318 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -206,6 +214,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		SER = {	ai = no }
+		tag = SER
 		797 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -231,6 +240,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		WAL = {	ai = no }
+		tag = WAL
 		669 = { NOT = { trade_goods = precious_metal } }
 	}
 
@@ -256,6 +266,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		MOL = {	ai = no }
+		tag = MOL
 		671 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -281,6 +292,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		GRE = {	ai = no }
+		tag = GRE
 		841 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -306,6 +318,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		TUR = {	ai = no }
+		tag = TUR
 		868 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -331,6 +344,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		EGY = {	ai = no }
+		tag = EGY
 		1768 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -356,6 +370,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		PER = {	ai = no }
+		tag = PER
 		1143 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -381,6 +396,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		RUS = {	ai = no }
+		tag = RUS
 		993 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -406,6 +422,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		BRZ = {	ai = no }
+		tag = BRZ
 		2427 = { NOT = { trade_goods = precious_metal } } 
 	}
 
@@ -431,6 +448,7 @@ country_event = {
 		year = 1836
 		NOT = { year = 1880 }
 		CLM = {	ai = no }
+		tag = CLM
 		2257 = { NOT = { trade_goods = precious_metal } }
 	}
 

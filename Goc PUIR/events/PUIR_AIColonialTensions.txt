@@ -11,7 +11,11 @@ country_event = {
 		TRN = { 
 			exists = yes
 			ai = yes 
-		}	
+		}
+		ENG = {
+			relation = { who = TRN value = -190 }
+			diplomatic_influence = { who = TRN value = -190 }
+		}
 	}
 			
 	mean_time_to_happen =  {
@@ -79,6 +83,10 @@ country_event = {
 			exists = yes
 			ai = yes 
 		}
+		ENG = {
+			relation = { who = ORA value = -190 }
+			diplomatic_influence = { who = ORA value = -190 }
+		}
 	}
 			
 	mean_time_to_happen =  {
@@ -141,6 +149,10 @@ country_event = {
 		ZUL = { 
 			exists = yes
 			ai = yes 
+		}
+		ENG = {
+			relation = { who = ZUL value = -190 }
+			diplomatic_influence = { who = ZUL value = -190 }
 		}
 		
 	}

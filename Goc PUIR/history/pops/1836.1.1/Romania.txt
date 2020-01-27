@@ -1923,7 +1923,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 4400
 	}
 
 	farmers = {
@@ -1955,7 +1955,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 400 
+		size = 1600 
 	}
 
 	farmers = {
@@ -1987,7 +1987,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 450 
+		size = 1800 
 	}
 
 	farmers = {
@@ -2019,7 +2019,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 450 
+		size = 1800 
 	}
 
 	farmers = {
@@ -2051,7 +2051,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 2100
+		size = 8400
 	}
 
 	farmers = {
@@ -2083,7 +2083,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 4400
 	}
 
 	farmers = {
@@ -2135,7 +2135,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 5000
+		size = 10000
 	}
 
 	farmers = {
@@ -2167,7 +2167,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 450  
+		size = 1100  
 	}
 
 	farmers = {
@@ -2199,7 +2199,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 3000
+		size = 6000
 	}
 
 	farmers = {
@@ -2231,7 +2231,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 2100
+		size = 4200
 	}
 
 	farmers = {

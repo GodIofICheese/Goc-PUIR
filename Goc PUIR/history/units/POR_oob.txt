@@ -73,7 +73,7 @@ army = {
 	location = 521
 	regiment = {
 		name= "1. Brigada de Infantaria"
-		type = infantry
+		type = hussar
 		home = 521
 	}
 
@@ -100,44 +100,34 @@ army = {
 		type = infantry
 		home = 522
 	}
+	
+	regiment = {
+		name= "6. Brigada de Infantaria"
+		type = artillery
+		home = 521
+	}
 
 	regiment = {
 		name= "1. Brigada de Caballaria"
-		type = cuirassier
+		type = artillery
 		home = 519
 	}
 
-}
-
-army = {
-	name = "Exército do Africa Ocidental"
-	location = 1999
-	
 	regiment = {
 		name = "1. Divisão Colonial"
-		type = infantry
+		type = artillery
 		home = 525
 	}
-}
-
-army = {
-	name = "Exército do Africa Oriental"
-	location = 2057
 	
 	regiment = {
 		name = "2. Divisão Colonial"
-		type = infantry
+		type = artillery
 		home = 2134
 	}
-}
-
-army = {
-	name = "Exército da Índia"
-	location = 1303
 	
 	regiment = {
 		name = "3. Divisão Colonial"
-		type = infantry
+		type = artillery
 		home = 1303
 	}
 }

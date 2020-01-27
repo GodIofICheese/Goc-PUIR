@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 200
+		size = 1500
 	}
 
 	farmers = {

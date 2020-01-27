@@ -61,19 +61,19 @@ army = {
 	location = 754
 	regiment = {
 		name= "1. Fanteria di Linea - Re e Regina"
-		type = infantry
+		type = hussar
 		home = 754
 	}
 
 	regiment = {
 		name= "2. Fanteria di Linea - Duca di Calabria"
-		type = infantry
+		type = hussar
 		home = 757
 	}
 
 	regiment = {
 		name= "3. Fanteria di Linea - Duca di Noto"
-		type = infantry
+		type = artillery
 		home = 755
 	}
 
@@ -85,69 +85,51 @@ army = {
 
 	regiment = {
 		name= "1. Cavalleria di Linea"
-		type = cuirassier
+		type = artillery
 		home = 754
 	}
 
 	regiment = {
 		name= "2. Cavalleria di Linea"
-		type = cuirassier
+		type = artillery
 		home = 753
 	}
 
 	regiment = {
 		name= "3. Cavalleria di Linea"
-		type = cuirassier
+		type = artillery
 		home = 756
 	}
 
-}
-
-army = {
-	name = "Guardia Reale"
-	location = 762
 	regiment = {
 		name= "1. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 762
 	}
 
 	regiment = {
 		name= "2. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 764
 	}
 
 	regiment = {
 		name= "3. Guardia Reale"
-		type = guard
+		type = artillery
 		home = 759
 	}
 
 	regiment = {
 		name= "1. Truppe Svizzere"
-		type = infantry
+		type = artillery
 		home = 760
 	}
 
 	regiment = {
 		name= "2. Truppe Svizzere"
-		type = infantry
+		type = artillery
 		home = 761
 	}
-
-	regiment = {
-		name= "3. Truppe Svizzere"
-		type = infantry
-		home = 758
-	}
-
-	regiment = {
-		name= "4. Truppe Svizzere"
-		type = artillery
-		home = 763
-	}
-
 }
 
 navy = {

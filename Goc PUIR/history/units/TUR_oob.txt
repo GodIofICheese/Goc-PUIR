@@ -126,7 +126,7 @@ army = {
 	location = 860
 	regiment = {
 		name= "1. Bostancy-yy Hassa"
-		type = guard
+		type = hussar
 		home = 860
 	}
 
@@ -144,9 +144,46 @@ army = {
 
 	regiment = {
 		name= "4. Bostancy-yy Hassa"
-		type = artillery
+		type = guard
 		home = 861
 	}
+	
+	regiment = {
+		name= "1. Redif Bursa"
+		type = guard
+		home = 849
+	}
+
+	regiment = {
+		name= "2. Redif Bursa"
+		type = artillery
+		home = 850
+	}
+
+	regiment = {
+		name= "3. Redif Bursa"
+		type = artillery
+		home = 851
+	}
+	
+	regiment = {
+		name= "3. Redif Bursa"
+		type = artillery
+		home = 824
+	}
+	
+	regiment = {
+		name= "3. Redif Bursa"
+		type = artillery
+		home = 825
+	}
+	
+	regiment = {
+		name= "3. Redif Bursa"
+		type = artillery
+		home = 832
+	}
+
 
 }
 
@@ -155,19 +192,19 @@ army = {
 	location = 810
 	regiment = {
 		name= "1. Sipahis"
-		type = cuirassier
+		type = hussar
 		home = 798
 	}
 
 	regiment = {
 		name= "2. Sipahis"
-		type = cuirassier
+		type = infantry
 		home = 799
 	}
 
 	regiment = {
 		name= "3. Sipahis"
-		type = cuirassier
+		type = infantry
 		home = 864
 	}
 
@@ -185,7 +222,7 @@ army = {
 
 	regiment = {
 		name= "3. Piyade Tümeni"
-		type = infantry
+		type = artillery
 		home = 880
 	}
 
@@ -197,54 +234,29 @@ army = {
 
 	regiment = {
 		name= "1. Redif Izmir"
-		type = irregular
+		type = artillery
 		home = 806
 	}
 
 	regiment = {
 		name= "2. Redif Izmir"
-		type = irregular
+		type = artillery
 		home = 807
 	}
 
 	regiment = {
 		name= "3. Redif Izmir"
-		type = irregular
+		type = artillery
 		home = 807
 	}
 }
 	
 army = {
-	name = "Redif Bursa"
-	location = 849
-	
-
-	regiment = {
-		name= "1. Redif Bursa"
-		type = irregular
-		home = 849
-	}
-
-	regiment = {
-		name= "2. Redif Bursa"
-		type = irregular
-		home = 850
-	}
-
-	regiment = {
-		name= "3. Redif Bursa"
-		type = irregular
-		home = 851
-	}
-
-}
-
-army = {
 	name = "Army of Anatolia"
 	location = 878
 	regiment = {
 		name= "5. Piyade Tümeni"
-		type = infantry
+		type = hussar
 		home = 882
 	}
 
@@ -262,43 +274,43 @@ army = {
 
 	regiment = {
 		name= "8. Piyade Tümeni"
-		type = artillery
+		type = infantry
 		home = 863
 	}
 
 	regiment = {
 		name= "1. Redif Kars"
-		type = irregular
+		type = infantry
 		home = 806
 	}
 
 	regiment = {
 		name= "2. Redif Kars"
-		type = irregular
+		type = artillery
 		home = 874
 	}
 
 	regiment = {
 		name= "3. Redif Kars"
-		type = irregular
+		type = artillery
 		home = 875
 	}
 
 	regiment = {
 		name= "1. Redif Trabzon"
-		type = irregular
+		type = artillery
 		home = 876
 	}
 
 	regiment = {
 		name= "2. Redif Trabzon"
-		type = irregular
+		type = artillery
 		home = 883
 	}
 
 	regiment = {
 		name= "3. Redif Trabzon"
-		type = irregular
+		type = artillery
 		home = 869
 	}
 
@@ -309,19 +321,19 @@ army = {
 	location = 818
 	regiment = {
 		name= "4. Sipahis"
-		type = cuirassier
+		type = hussar
 		home = 885
 	}
 
 	regiment = {
 		name= "5. Sipahis"
-		type = cuirassier
+		type = infantry
 		home = 878
 	}
 
 	regiment = {
 		name= "6. Sipahis"
-		type = cuirassier
+		type = infantry
 		home = 812
 	}
 
@@ -339,36 +351,42 @@ army = {
 
 	regiment = {
 		name= "11. Piyade Tümeni"
-		type = infantry
+		type = artillery
 		home = 878
 	}
 
 	regiment = {
 		name= "1. Redif Diyarbakir"
-		type = irregular
+		type = artillery
 		home = 925
 	}
 
 	regiment = {
 		name= "2. Redif Diyarbakir"
-		type = irregular
+		type = artillery
 		home = 809
 	}
 
 	regiment = {
 		name= "3. Redif Diyarbakir"
-		type = irregular
+		type = artillery
 		home = 814
+	}
+	
+	regiment = {
+		name= "3. Redif Diyarbakir"
+		type = artillery
+		home = 828
 	}
 
 }
 
 army = {
 	name = "Army of Arabia"
-	location = 925
+	location = 1733
 	regiment = {
 		name= "12. Piyade Tümeni"
-		type = infantry
+		type = hussar
 		home = 893
 	}
 
@@ -386,52 +404,43 @@ army = {
 
 	regiment = {
 		name= "1. Redif Halab"
-		type = irregular
+		type = infantry
 		home = 890
 	}
 
 	regiment = {
 		name= "2. Redif Halab"
-		type = irregular
+		type = infantry
 		home = 879
 	}
 
 	regiment = {
 		name= "3. Redif Halab"
-		type = irregular
+		type = artillery
 		home = 923
 	}
 
-}
-
-army = {
-	name = "Army of the Bashaw of Tripoli"
-	location = 1733
 	regiment = {
 		name= "7. Sipahis"
-		type = cavalry
+		type = artillery
 		home = 1733
 	}
 
 	regiment = {
 		name= "8. Sipahis"
-		type = cavalry
+		type = artillery
 		home = 1731
 	}
-}
 
-army = {
-	name = "Army of the Bey of Benghazi"
-	location = 1735
 	regiment = {
 		name= "1. Askäris"
-		type = irregular
+		type = artillery
 		home = 1735
 	}
 
 	regiment = {
 		name= "2. Askäris"
-		type = irregular
+		type = artillery
 		home = 1734
 	}
 }

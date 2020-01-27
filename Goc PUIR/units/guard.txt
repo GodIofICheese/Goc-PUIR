@@ -9,13 +9,12 @@ guard = {
 	floating_flag = no
 
 	#Core Abilities
-	priority = 18
+	priority = 24
 	max_strength = 3
 	default_organisation = 30
 	maximum_speed = 4.00
 	weighted_value = 9.0
-
-
+	
 	#Building Costs
 	build_time = 90
 	build_cost = {
@@ -36,9 +35,9 @@ guard = {
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 8
-	defence = 2
-	discipline = 1.0
+	attack = 7
+	defence = 6
+	discipline = 1.3
 	support = 0.0
-	maneuver = 2
+	maneuver = 1
 }

@@ -8,6 +8,7 @@ add_core = PLC
 trade_goods = fish
 life_rating = 38
 naval_base = 1
+fort = 1
 1861.1.1 = {
 	state_building = {
 		level = 1

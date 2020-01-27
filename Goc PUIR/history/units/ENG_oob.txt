@@ -478,25 +478,25 @@ army = {
 
 	regiment = {
 		name= "Royal Dragoons"
-		type = dragoon
+		type = artillery
 		home = 294
 	}
 
 	regiment = {
 		name= "Heavy Brigade"
-		type = cuirassier
+		type = artillery
 		home = 291
 	}
 
 	regiment = {
 		name= "1.1st Division"
-		type = infantry
+		type = artillery
 		home = 300
 	}
 
 	regiment = {
 		name= "2.1st Division"
-		type = infantry
+		type = artillery
 		home = 293
 	}
 
@@ -506,11 +506,6 @@ army = {
 		home = 295
 	}
 
-}
-
-army = {
-	name = "2nd Division"
-	location = 288
 	regiment = {
 		name= "1.2nd Division"
 		type = infantry
@@ -528,6 +523,12 @@ army = {
 		type = infantry
 		home = 256
 	}
+	
+	regiment = {
+		name= "3.3rd Division"
+		type = infantry
+		home = 259
+	}
 
 }
 
@@ -536,7 +537,7 @@ army = {
 	location = 273
 	regiment = {
 		name= "1.3rd Division"
-		type = infantry
+		type = hussar
 		home = 273
 	}
 
@@ -552,11 +553,6 @@ army = {
 		home = 270
 	}
 
-}
-
-army = {
-	name = "4th Division"
-	location = 263
 	regiment = {
 		name= "1.4th Division"
 		type = infantry
@@ -571,41 +567,41 @@ army = {
 
 	regiment = {
 		name= "3.4th Division"
-		type = infantry
+		type = artillery
 		home = 281
 	}
 
-}
-
-army = {
-	name = "5th Division"
-	location = 269
 	regiment = {
 		name= "1.5th Division"
-		type = infantry
+		type = artillery
 		home = 269
 	}
 
 	regiment = {
 		name= "2.5th Division"
-		type = infantry
+		type = artillery
 		home = 271
 	}
 
 	regiment = {
 		name= "3.5th Division"
-		type = infantry
+		type = artillery
 		home = 267
 	}
 
+	regiment = {
+		name= "3.6th Division"
+		type = artillery
+		home = 267
+	}
 }
 
 army = {
-	name = "The Canada Garrison"
-	location = 57 
+	name = "1st Colonial Army"
+	location = 292
 	regiment = {
 		name= "1.6th Division"
-		type = infantry
+		type = hussar
 		home = 277
 	}
 
@@ -621,11 +617,6 @@ army = {
 		home = 46
 	}
 
-}
-
-army = {
-	name = "The South Africa Garrison"
-	location = 2087
 	regiment = {
 		name= "1.7th Division"
 		type = infantry
@@ -640,31 +631,32 @@ army = {
 
 	regiment = {
 		name= "3.7th Division"
-		type = infantry
+		type = artillery
 		home = 2087
 	}
 
-}
-
-army = {
-	name = "The Australia Garrison"
-	location = 2468
 	regiment = {
 		name= "1.8th Division"
-		type = infantry
+		type = artillery
 		home = 299
 	}
 
 	regiment = {
 		name= "2.8th Division"
-		type = infantry
+		type = artillery
 		home = 283
 	}
 
 	regiment = {
 		name= "3.8th Division"
-		type = infantry
+		type = artillery
 		home = 2468
+	}
+	
+	regiment = {
+		name= "3.9th Division"
+		type = artillery
+		home = 2217
 	}
 
 }
@@ -674,7 +666,7 @@ army = {
 	location = 1297
 	regiment = {
 		name= "1.9th Division"
-		type = infantry
+		type = hussar
 		home = 271
 	}
 
@@ -704,26 +696,32 @@ army = {
 
 	regiment = {
 		name= "3.1st Indian Division"
-		type = infantry
+		type = artillery
 		home = 1299
 	}
 
 	regiment = {
 		name= "1.2nd Indian Division"
-		type = infantry
+		type = artillery
 		home = 1316
 	}
 
 	regiment = {
 		name= "2.2nd Indian Division"
-		type = infantry
+		type = artillery
 		home = 1317
 	}
 
 	regiment = {
 		name= "3.2nd Indian Division"
-		type = infantry
+		type = artillery
 		home = 1317
+	}
+	
+	regiment = {
+		name= "3.5th Indian Division"
+		type = artillery
+		home = 1251
 	}
 
 }
@@ -733,7 +731,7 @@ army = {
 	location = 1256
 	regiment = {
 		name= "1.10th Division"
-		type = infantry
+		type = hussar
 		home = 300
 	}
 
@@ -763,26 +761,32 @@ army = {
 
 	regiment = {
 		name= "3.3rd Indian Division"
-		type = infantry
+		type = artillery
 		home = 1254
 	}
 
 	regiment = {
 		name= "1.4th Indian Division"
-		type = infantry
+		type = artillery
 		home = 1240
 	}
 
 	regiment = {
 		name= "2.4th Indian Division"
-		type = infantry
+		type = artillery
 		home = 1248
 	}
 
 	regiment = {
 		name= "3.4th Indian Division"
-		type = infantry
+		type = artillery
 		home = 1243
+	}
+	
+	regiment = {
+		name= "2.5th Indian Division"
+		type = artillery
+		home = 1239
 	}
 
 }
@@ -843,28 +847,12 @@ army = {
 		type = infantry
 		home = 258
 	}
-}
-army = {
-	name = "5th Indian Division"
-	location = 1236
+	
 	regiment = {
 		name= "1.5th Indian Division"
 		type = infantry
 		home = 1236
 	}
-
-	regiment = {
-		name= "2.5th Indian Division"
-		type = infantry
-		home = 1239
-	}
-
-	regiment = {
-		name= "3.5th Indian Division"
-		type = infantry
-		home = 1251
-	}
-
 }
 
 navy = {
@@ -1085,11 +1073,6 @@ navy = {
 		type = commerce_raider
 	}
 
-}
-
-navy = {
-	name = "1st Reserve Squadron"
-	location = 303
 	ship = {
 		name= "HMS Blenheim"
 		type = manowar
@@ -1190,11 +1173,6 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "2nd Reserve Squadron"
-	location = 299 #Plymouth
 	ship = {
 		name= "HMS Bellona"
 		type = manowar
@@ -1295,11 +1273,6 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "3rd Reserve Squadron"
-	location = 299 #Plymouth
 	ship = {
 		name= "HMS Ajax"
 		type = manowar
@@ -1400,11 +1373,6 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "4th Reserve Squadron"
-	location = 301 #Canterbury
 	ship = {
 		name= "HMS Foudroyant"
 		type = manowar
@@ -1459,12 +1427,7 @@ navy = {
 		name= "HMS Resistance"
 		type = frigate
 	}
-
-}
-
-navy = {
-	name = "Mediterranean Fleet"
-	location = 854 #Malta
+	
 	ship = {
 		name= "HMS Agincourt"
 		type = manowar
@@ -1560,11 +1523,6 @@ navy = {
 		type = commerce_raider
 	}
 
-}
-
-navy = {
-	name = "Lisbon Station"
-	location = 517 #Gibraltar
 	ship = {
 		name= "HMS Africaine"
 		type = frigate
@@ -1580,11 +1538,6 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "North America Station"
-	location = 71 #Halifax
 	ship = {
 		name= "HMS Saint Vincent"
 		type = manowar
@@ -1640,11 +1593,6 @@ navy = {
 		type = commerce_raider
 	}
 
-}
-
-navy = {
-	name = "South Atlantic Station"
-	location = 2131 # Falklands
 	ship = {
 		name= "HMS Hamadryad"
 		type = frigate
@@ -1665,41 +1613,11 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "West Africa Station"
-	location = 1884 #Freetown
 	ship = {
 		name= "HMS Diana"
 		type = frigate
 	}
-
-}
-
-navy = {
-	name = "East Indies Station"
-	location = 1321 #Colombo
-	ship = {
-		name= "HMS Madagascar"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Portland"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Winchester"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "1st Transport Squadron"
-	location = 303
+	
 	ship = {
 		name= "1st Transport Flotilla"
 		type = clipper_transport
@@ -1746,12 +1664,7 @@ navy = {
 		name= "26th Transport Flotilla"
 		type = clipper_transport
 	}
-
-}
-
-navy = {
-	name = "2nd Transport Squadron"
-	location = 854
+	
 	ship = {
 		name= "7th Transport Flotilla"
 		type = clipper_transport
@@ -1788,12 +1701,26 @@ navy = {
 		name= "22th Transport Flotilla"
 		type = clipper_transport
 	}
-
 }
 
 navy = {
-	name = "3rd Transport Squadron"
+	name = "East Indies Station"
 	location = 1321 #Colombo
+	ship = {
+		name= "HMS Madagascar"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Portland"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Winchester"
+		type = frigate
+	}
+
 	ship = {
 		name= "11th Transport Flotilla"
 		type = clipper_transport
@@ -1828,6 +1755,16 @@ navy = {
 
 	ship = {
 		name= "18th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "19th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "20th Transport Flotilla"
 		type = clipper_transport
 	}
 

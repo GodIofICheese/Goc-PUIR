@@ -181,7 +181,7 @@ army = {
 	location = 487
 	regiment = {
 		name= "1. Granaderos del Rey"
-		type = infantry
+		type = hussar
 		home = 487
 	}
 
@@ -193,7 +193,7 @@ army = {
 
 	regiment = {
 		name= "3. Guardia Real"
-		type = guard
+		type = infantry
 		home = 481
 	}
 
@@ -211,31 +211,31 @@ army = {
 
 	regiment = {
 		name= "3. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 513
 	}
 
 	regiment = {
 		name= "1. Brigada de Ingenieros"
-		type = engineer
+		type = artillery
 		home = 495
 	}
 
 	regiment = {
 		name= "1. Granaderos del Rey"
-		type = cuirassier
+		type = artillery
 		home = 487
 	}
 
 	regiment = {
 		name= "2. Granaderos del Rey"
-		type = cuirassier
+		type = artillery
 		home = 489
 	}
 
 	regiment = {
 		name= "3. Granaderos del Rey"
-		type = cuirassier
+		type = artillery
 		home = 488
 	}
 }
@@ -246,13 +246,13 @@ army = {
 	
 	regiment = {
 		name= "4. Brigada de Infantería 'San Jorge'"
-		type = infantry
+		type = hussar
 		home = 498
 	}
 
 	regiment = {
 		name= "1. Brigada de Artillería"
-		type = artillery
+		type = infantry
 		home = 476
 	}
 	
@@ -273,50 +273,45 @@ army = {
 		type = infantry
 		home = 497
 	}
-}
-
-army = {
-	name = "Ejército del Sur"
-	location = 512
 
 	regiment = {
 		name= "8. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 512
 	}
 
 	regiment = {
 		name= "9. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 514
 	}
 
 	regiment = {
 		name= "10. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 510
 	}
 
 	regiment = {
 		name= "11. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 516
 	}
 	
 	regiment = {
 		name= "12. Brigada de Infantería"
-		type = infantry
+		type = artillery
 		home = 515
 	}
 }
 
 army = {
 	name = "Ejército de Cuba"
-	location = 2209
+	location = 480
 	
 	regiment = {
 		name = "1. Brigada Colonial"
-		type = infantry
+		type = hussar
 		home = 474
 	}
 	
@@ -325,44 +320,59 @@ army = {
 		type = infantry
 		home = 2209
 	}
-}
-
-army = {
-	name = "Ejército de Puerto Rico"
-	location = 2222
 	
 	regiment = {
 		name = "3. Brigada Colonial"
 		type = infantry
 		home = 475
 	}
-}
 
-army = {
-	name = "Ejército de Filipinas"
-	location = 1455
-	
 	regiment = {
 		name = "4. Brigada Colonial"
 		type = infantry
 		home = 1455
 	}
-}
 
-army = {
-	name = "Ejército de Mindanao"
-	location = 1463
-	
 	regiment = {
 		name = "5. Brigada Colonial"
 		type = infantry
 		home = 1463
 	}
+	
+	regiment = {
+		name = "6. Brigada Colonial"
+		type = artillery
+		home = 1456
+	}
+	
+	regiment = {
+		name = "7. Brigada Colonial"
+		type = artillery
+		home = 1457
+	}
+	
+	regiment = {
+		name = "1. Brigada"
+		type = artillery
+		home = 513
+	}
+	
+	regiment = {
+		name = "2. Brigada"
+		type = artillery
+		home = 509
+	}
+	
+	regiment = {
+		name = "3. Brigada"
+		type = artillery
+		home = 474
+	}
 }
 
 navy = {
-	name = "Armada de Cuba"
-	location = 2212
+	name = "Armada Real Española"
+	location = 506
 	
 	ship = {
 		name = "Santiago"
@@ -403,11 +413,6 @@ navy = {
 		name= "3a Flotilla de Transporte"
 		type = clipper_transport
 	}
-}
-
-navy = {
-	name = "Armada de Filipinas"
-	location = 1455
 	
 	ship = {
 		name = "Alerta"
@@ -448,11 +453,7 @@ navy = {
 		name= "3a Flotilla de Transporte"
 		type = clipper_transport
 	}
-}
-
-navy = {
-	name = "Armada Real Española"
-	location = 506
+	
 	ship = {
 		name= "San Raimundo"
 		type = manowar
@@ -505,6 +506,11 @@ navy = {
 
 	ship = {
 		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4a Flotilla de Transporte"
 		type = clipper_transport
 	}
 }

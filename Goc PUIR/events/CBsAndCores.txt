@@ -603,6 +603,7 @@ province_event = {
 		modifier = {
 			factor = 0.75
 			owner = { revolution_n_counterrevolution = 1 }
+		}
 		modifier = {
 			factor = 1.2
 			average_militancy = 2

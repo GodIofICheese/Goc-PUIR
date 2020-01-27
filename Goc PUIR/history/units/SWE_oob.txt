@@ -112,66 +112,131 @@ leader = {
 }
 
 army = {
-	name = "Svenska Armén"
+	name = "1. Svenska Armén"
 	location = 322
 	regiment = {
 		name= "Svea Livgarde"
-		type = guard
+		type = hussar
 		home = 322
 	}
 
 	regiment = {
 		name= "Södermanlands Regemente"
-		type = infantry
+		type = guard
 		home = 326
 	}
 
 	regiment = {
 		name= "Första Livgrenadjärregementet"
-		type = infantry
+		type = guard
 		home = 325
 	}
 
 	regiment = {
 		name= "Upplands Regemente"
-		type = infantry
+		type = guard
 		home = 324
 	}
 
 	regiment = {
 		name= "Västgöta Regemente"
-		type = infantry
+		type = guard
 		home = 330
 	}
 
 	regiment = {
 		name= "Kalmar Regemente"
-		type = infantry
+		type = artillery
 		home = 332
 	}
 
 	regiment = {
 		name= "Jönköpings Regemente"
-		type = infantry
+		type = artillery
 		home = 333
 	}
 
 	regiment = {
 		name= "Södra Skånska Infanteriregementet"
-		type = infantry
+		type = artillery
 		home = 334
 	}
 
 	regiment = {
 		name= "Kronprinsens Husarregemente"
-		type = hussar
+		type = artillery
 		home = 335
 	}
 
 	regiment = {
 		name= "Norrlands Dragonregemente"
-		type = dragoon
+		type = artillery
 		home = 321
+	}
+
+}
+
+army = {
+	name = "2. Svenska Armén"
+	location = 330
+	regiment = {
+		name= "Svea Livgarde"
+		type = hussar
+		home = 305
+	}
+
+	regiment = {
+		name= "Södermanlands Regemente"
+		type = guard
+		home = 309
+	}
+
+	regiment = {
+		name= "Första Livgrenadjärregementet"
+		type = guard
+		home = 310
+	}
+
+	regiment = {
+		name= "Upplands Regemente"
+		type = guard
+		home = 313
+	}
+
+	regiment = {
+		name= "Västgöta Regemente"
+		type = guard
+		home = 317
+	}
+
+	regiment = {
+		name= "Kalmar Regemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Jönköpings Regemente"
+		type = artillery
+		home = 322
+	}
+
+	regiment = {
+		name= "Södra Skånska Infanteriregementet"
+		type = artillery
+		home = 323
+	}
+
+	regiment = {
+		name= "Kronprinsens Husarregemente"
+		type = artillery
+		home = 327
+	}
+
+	regiment = {
+		name= "Norrlands Dragonregemente"
+		type = artillery
+		home = 328
 	}
 
 }

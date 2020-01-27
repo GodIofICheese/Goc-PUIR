@@ -812,7 +812,8 @@ RGO_template_farmers = {
 	owner =
 	{
 		poptype = aristocrats 
-		effect = output
+		effect = throughput
+		effect_multiplier = 3
 	}
 		
 	employees = {
@@ -836,7 +837,8 @@ RGO_template_labourers = {
 	owner =
 	{
 		poptype = aristocrats 
-		effect = output
+		effect = throughput
+		effect_multiplier = 3
 	}
 		
 	employees = {

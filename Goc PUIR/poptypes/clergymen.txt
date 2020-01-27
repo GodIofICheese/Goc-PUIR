@@ -362,7 +362,7 @@ promote_to =
 		modifier = {
 			factor = -100
 			state_scope = {
-				aristocrats = 0.02
+				aristocrats = 0.04
 			}
 		}
 

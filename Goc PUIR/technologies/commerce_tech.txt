@@ -646,6 +646,12 @@ market_regulations = {
 	cost = 14400
 
 	influence = 0.2
+	rgo_goods_throughput = {
+		precious_metal = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.1
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -673,6 +679,12 @@ economic_responsibility = {
 	cost = 18000
 
 	influence = 0.2
+	rgo_goods_throughput = {
+		precious_metal = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.1
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -700,6 +712,12 @@ government_interventionism = {
 	cost = 21600
 
 	influence = 0.2
+	rgo_goods_throughput = {
+		precious_metal = 0.05
+	}
+	rgo_size = {
+		precious_metal = 0.1
+	}
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -730,6 +748,12 @@ guild_based_production = {
 	cost = 3600
 	activate_building = canned_food_factory 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -764,6 +788,12 @@ organized_factories = {
 	cost = 7200
 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 		ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -798,6 +828,12 @@ scientific_management = {
 	cost = 10800
 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -832,6 +868,12 @@ time_saving_measures = {
 	cost = 14400
 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -854,6 +896,12 @@ management_strategy = {
 	cost = 18000
 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -876,6 +924,12 @@ organizational_development = {
 	cost = 21600
 
 	factory_output = 0.01
+	rgo_goods_throughput = {
+		precious_metal = 0.025
+	}
+	rgo_size = {
+		precious_metal = 0.05
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -892,5 +946,3 @@ organizational_development = {
 		}
 	}	
 }
-
-

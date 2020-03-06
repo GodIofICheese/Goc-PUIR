@@ -101,7 +101,8 @@ blockaded =
 	war_exhaustion = 0.02
 	farm_rgo_eff = -0.33
 	mining_rgo_eff = -0.33
-	factory_throughput = -0.05
+	local_factory_throughput = -0.5
+	local_rgo_output = -0.5
 }
 
 no_adjacent_controlled = {

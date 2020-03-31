@@ -110,17 +110,14 @@ on_colony_to_state_free_slaves =
 
 on_debtor_default =
 {
-	100 = 70002
 }
 
 on_debtor_default_small =
 {
-	#100 = 70004
 }
 
 on_debtor_default_second =
 {
-	100 = 70003
 }
 
 on_civilize =

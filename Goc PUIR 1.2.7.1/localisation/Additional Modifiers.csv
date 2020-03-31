@@ -33,6 +33,8 @@ timber_employment_fix_title;Timber Employment Fix;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;
 timber_employment_fix_desc;A temporary market reset for Lumber prices inorder to fix the unemployment bug caused by switching a province to a Lumber RGO.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;
 immunity_from_influenza;Immunity from Influenza;;;;;;;;;;;;;x
 immunity_from_influenza_desc;Prevents Pandemic Influenza from recurring in your country as long as modifier is active.;;;;;;;;;;;;;x
+no_more_war_reperations;No More War Reperations Can be Added on You.;;;;;;;;;;;;;x
+no_more_war_reperations_desc;Due to the nature of stacking of War Reperations by multiple countries on a single nation, it is possible to earn 80% or even 120% of all income in a country leading to a unrecoverable situation when Reperations are added every-war.;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x
 #Save The Nation;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x

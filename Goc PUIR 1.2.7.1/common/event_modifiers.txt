@@ -1144,3 +1144,9 @@ birthrate_push_high = {
 recently_selected_birthrate = {
     icon = 2
 }
+
+#### No More War Reperations ####
+
+no_more_war_reperations = {
+    icon = 2
+}

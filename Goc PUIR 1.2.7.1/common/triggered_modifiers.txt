@@ -2,13 +2,6 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
-
-test = {
-	trigger = { debt = 50000 }
-	min_tariff = 1
-	max_tax = 1
-}
-
 ###Size Modifiers###
 desperate_nation  = {
 	trigger = {

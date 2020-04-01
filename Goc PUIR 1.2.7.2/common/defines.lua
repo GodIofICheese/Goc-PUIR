@@ -9,8 +9,8 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
-	GOLD_TO_CASH_RATE = 1.0, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = 3.0, -- Multiplier for how much money gold pays to pops
+	GOLD_TO_CASH_RATE = 3.5, -- Amount of money generated per gold unit
+	GOLD_TO_WORKER_PAY_RATE = 1.0, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
@@ -630,7 +630,7 @@ pops = {
 	PROMOTION_SCALE = 0.002,
 	PROMOTION_ASSIMILATION_CHANCE = 1.0,
 	LUXURY_THRESHOLD = 500,
-	BASE_GOODS_DEMAND = 1,
+	BASE_GOODS_DEMAND = 1.25,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
 	LIFE_RATING_GROWTH_BONUS = 0.0001,
@@ -649,18 +649,18 @@ pops = {
 		
 	CON_LITERACY = 0.1,
 	CON_LUXURY_GOODS = -0.05,
-	CON_POOR_CLERGY = -2.5,
-	CON_MIDRICH_CLERGY = -1.25,
+	CON_POOR_CLERGY = -2,
+	CON_MIDRICH_CLERGY = -1,
 	CON_REFORM_IMPACT = -50,
 	CON_COLONIAL_FACTOR = 0.5,
 	RULING_PARTY_HAPPY_CHANGE = -1,
 	RULING_PARTY_ANGRY_CHANGE = 2,
 
-	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
+	PDEF_BASE_CON = 40.0,			-- so half'ed effect.
 	
 	NATIONAL_FOCUS_DIVIDER = 100000.0,
 	
-	POP_SAVINGS = 0.018,
+	POP_SAVINGS = 0.03,
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
@@ -671,11 +671,11 @@ pops = {
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
-	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficieny of an artisan
+	ARTISAN_MIN_PRODUCTIVITY = 1.1, -- Minimum efficieny of an artisan
 	SLAVE_GROWTH_DIVISOR = 1, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
-	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
+	LUXURY_CON_CHANGE = -0.001, -- con boost from over-buying luxuary goods
 	INVENTION_IMPACT_ON_DEMAND = 0.0010, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
 	ISSUE_MOVEMENT_JOIN_LIMIT = 8,

@@ -10,6 +10,7 @@ party_issues = {
 		free_trade = {
 			rgo_throughput = 0.20
 			factory_input = -0.05
+			artisan_input = -0.025
 			max_tariff = 0.25
 			min_tariff = -1
 		}
@@ -21,6 +22,7 @@ party_issues = {
 			factory_owner_cost = 0.3
 			factory_maintenance = -0.2
 			factory_output = 0.05
+			artisan_input = -0.025
 			import_cost = -0.25
 			
 			rules = {

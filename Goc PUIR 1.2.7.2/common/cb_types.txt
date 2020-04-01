@@ -551,7 +551,7 @@ acquire_lowpop_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -573,7 +573,6 @@ acquire_lowpop_state = {
 			 } 
 		}
 		AND = {
-		   year = 1860
 		   NOT = { year = 1861 }
 		}
 		OR = {
@@ -670,7 +669,6 @@ acquire_state = {
 			 } 
 		}
 		AND = {
-		   year = 1860
 		   NOT = { year = 1861 }
 		}
 		OR = {
@@ -769,7 +767,6 @@ acquire_highpop_state = {
 			 } 
 		}
 		AND = {
-		   year = 1860
 		   NOT = { year = 1861 }
 		}
 		OR = {
@@ -845,7 +842,7 @@ place_in_the_sun = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -920,7 +917,7 @@ place_in_the_sun_late = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1083,6 +1080,7 @@ demand_reperations = {
 	war_name = WAR_NAME
 	
 	can_use = {
+	NOT = { has_country_modifier = no_more_war_reperations }
 	}
 	
 	on_add = {
@@ -1090,6 +1088,12 @@ demand_reperations = {
 			from = jingoism 
 			to = pro_military
 			value = 0.25
+		}
+		FROM = {
+			add_country_modifier = {
+				name = no_more_war_reperations
+				duration = 2160
+			}
 		}
 	}
 }
@@ -1159,7 +1163,6 @@ free_peoples = {
 	
 	can_use = {
 		AND = {
-		   year = 1860
 		   NOT = { year = 1861 }
 		}
 		NOT = { 
@@ -3818,7 +3821,7 @@ acquire_lowpop_state_midgame = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4120,7 +4123,7 @@ acquire_lowpop_state_late = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4416,7 +4419,7 @@ acquire_lowpop_state_verylate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -5128,7 +5131,7 @@ place_in_the_sun_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -5207,7 +5210,7 @@ place_in_the_sun_late_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -5288,7 +5291,7 @@ acquire_lowpop_state_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -5596,7 +5599,7 @@ acquire_lowpop_state_midgame_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -5899,7 +5902,7 @@ acquire_lowpop_state_late_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -6193,7 +6196,7 @@ acquire_lowpop_state_verylate_for_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
